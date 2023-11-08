@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorveteria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label>Nome:</label>
+    <input id="nome" type="text" placeholder="Seu nome aqui">
+
+    <label>Quantidade:</label>
+    <input id="quantidade" type="number" min="1" placeholder="Quantos sorvetes quer?">
+
+    <label>Sabores:</label>
+    <select id="sabores">
+        <option value="chocolate"> Chocolate</option>
+        <option value="morango">Morango</option>
+        <option value="creme">Creme</option>
+        <option value="napolitano">Napolitano</option>
+    </select>
+
+    <button id="botao">Fazer pedido</button>
+     <hr>
+     <p id="pedidoNome"></p>
+     <p id="pedidoQuantia"></p>
+     <p id="pedidoSabores"></p>
+    <script src="script.js"></script>
+
+</body>
+</html>
